@@ -3,7 +3,7 @@ base="light"
 primaryColor="#1B4370"
 backgroundColor="#F8FBFF"
 secondaryBackgroundColor="#EAF1FB"
-textColor="green"
+textColor="#262730"
 font="sans serif"
 
 [ui]
