@@ -3,7 +3,7 @@ import openpyxl
 import tempfile
 import os
 
-def appreciation_physagreg(nom, moyenne):
+def appreciation_bull(nom, moyenne):
     if moyenne is None or moyenne == "":
         return "Absent du trimestre. Peu d'évaluation possible."
     try:
@@ -43,7 +43,7 @@ def generer_appreciations_excel(input_path, output_path):
     for row in ws.iter_rows(min_row=2, max_row=ws.max_row):
         nom = row[col_nom].value
         moyenne = row[col_moy].value
-        appreciation = appreciation_physagreg(nom, moyenne)
+        appreciation = appreciation_bull(nom, moyenne)
         ws.cell(row=row[0].row, column=col_app+1, value=appreciation)
 
     wb.save(output_path)
