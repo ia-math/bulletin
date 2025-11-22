@@ -1,0 +1,11 @@
+[theme]
+base="light"
+primaryColor="#1B4370"
+backgroundColor="#F8FBFF"
+secondaryBackgroundColor="#EAF1FB"
+textColor="#262730"
+font="sans serif"
+
+[ui]
+hideMenu = true
+hideFooter = true
