@@ -48,9 +48,15 @@ def generer_appreciations_excel(input_path, output_path):
 
     wb.save(output_path)
 
+ 
 st.title("Générateur d'appréciations pour bulletins scolaires")
-
-uploaded_file = st.file_uploader("Déposez ici votre fichier Excel (.xlsx) avec les élèves et leurs moyennes", type=["xlsx"])
+st.markdown("""
+Bienvenue sur votre espace enseignant !  
+ 1️⃣ Déposez un fichier .xlsx avec les notes.  
+ 2️⃣ Générez des appréciations personnalisées.  
+ 3️⃣ Téléchargez un document prêt à l’emploi.  
+""")
+uploaded_file = st.file_uploader("Déposez ici votre fichier Excel (.xlsx) contenant le nom des élèves, leurs moyennes, obtenez un bulletin enrichi automatiquement.", type=["xlsx"])
 
 if uploaded_file is not None:
     with tempfile.NamedTemporaryFile(delete=False, suffix=".xlsx") as temp_in:
