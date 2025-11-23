@@ -182,8 +182,8 @@ st.markdown(
 """
 Application créé par M. FARES (Professeur de mathématiques).
 
-- Le programme fournit une appréciation en fonction des la moyenne générale.
-- Les appréciations sont accordées selon le genre selon la base de données de (l'INSEE).
+- Le programme fournit une appréciation en fonction de la moyenne générale.
+- Les appréciations sont accordées selon le genre (Base de données de l'INSEE).
 """
 )
 
