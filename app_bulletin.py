@@ -214,5 +214,5 @@ st.markdown("""---
 - Extraire les notes de la classe à partir de PRONOTE et les insérer dans un fichier excel.
 - Le fichier excel doit contenir le nom de l'élève en MAJUSCULE et le prénom en miniscule.
 - Le fichier excel doit contenir sur la première colonne (NOM et prénom) et sur la deuxième colonne (La moyenne).
-- L'appréciation tien compte de la moyenne, il ne peut pas refléter le niveau de l'élève, c'est au professeur de l'adapter au profil de l'élève.
+- L'appréciation prend en compte la moyenne de l'élève, il ne peut pas refléter le niveau de l'élève, c'est au professeur de l'adapter au profil de l'élève.
 """)
