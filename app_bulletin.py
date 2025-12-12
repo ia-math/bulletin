@@ -25,7 +25,7 @@ with open(FILE_COMPTEUR, "w") as f:
 
 # Affichage dans la barre latérale ou le header
 import streamlit as st
-st.sidebar.markdown(f"👁️ Nombre de bullteins générés : {compteur}")
+st.sidebar.markdown(f"👁️ Bulletins générés : {compteur}")
 
 
 # Chargement base INSEE + fréquence
